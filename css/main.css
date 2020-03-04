@@ -10,3 +10,19 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
+
+.ele-1 {
+  font-family: "Rozha One", serif;
+}
+
+.tenamega {
+  font-size: 100px !important;
+}
+
+span {
+  font-family: Alef, sans-serif;
+}
+
+.ele-1 p:last-child {
+  font-family: Alef, sans-serif;
+}
