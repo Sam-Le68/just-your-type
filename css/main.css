@@ -4,26 +4,14 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-html {
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
-}
-
 .ele-1 {
   font-family: "Rozha One", serif;
-  line-height: 2em;
-  background-color: #4693B8;
+  background-color: #4693b8;
 }
 
 .ele-1 div {
-  color: #E2B327;
-  border: 8px solid #0B1F65;
+  color: #e2b327;
+  border: 8px solid #0b1f65;
   width: 600px;
   margin: 1em auto .5em;
 }
@@ -38,7 +26,7 @@ span {
 }
 
 .ele2-container {
-  background-color: #FADCD9;
+  background-color: #fadcd9;
 }
 
 .ele-2 {
@@ -50,41 +38,40 @@ span {
   position: absolute;
   font-family: Lora, serif;
   top: 2%;
-  color: #821D30;
+  color: #821d30;
 }
 
 .front-letter-2 {
   position: absolute;
   font-family: Lora, serif;
   top: 20%;
-  color: #821D30;
+  color: #821d30;
 }
 
 .front-letter-3 {
   position: absolute;
   font-family: Lora, serif;
   top: 55%;
-  color: #821D30;
+  color: #821d30;
 }
 
 .front-letter-4 {
   position: absolute;
   font-family: Lora, serif;
   top: 75%;
-  color: #821D30;
+  color: #821d30;
 }
 
 .background-letter p {
   font-family: Raleway, sans-serif;
-  color: #F9F1F0;
+  color: #f9f1f0;
 }
 
 .ele-3 {
   transform: skewY(10deg);
   font-family: Limelight, cursive;
-  line-height: normal;
-  color: #B6E2D3;
-  border-bottom: 7px solid #B6E2D3;
+  color: #b6e2d3;
+  border-bottom: 7px solid #b6e2d3;
   max-width: 400px;
   min-width: 200px;
   margin: 0 auto;
@@ -93,33 +80,14 @@ span {
 
 .ele3-container {
   padding: 14em 0;
-  background-color: #152D2E;
+  background-color: #152d2e;
 }
 
 .fira {
   font-family: "Fira Sans", sans-serif;
-  line-height: normal;
 }
 
 .tenakilo {
-  font-size: 70px !important;
-  line-height: 80px !important;
-}
-
-@media only screen and (min-width: 25em) {
-
-  .tenakilo {
-    font-size: 90px !important;
-    line-height: 100px !important;
-  }
-
-}
-
-@media only screen and (min-width: 38em) {
-
-  .tenakilo {
-    font-size: 110px !important;
-    line-height: 120px !important;
-  }
-
+  font-size: 4.375rem !important;
+  line-height: 5rem !important;
 }
